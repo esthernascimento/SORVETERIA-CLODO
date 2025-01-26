@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sorveteria do Clodo</title>
+    <link rel="shortcut icon" href="./img/logo2.PNG" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <!-- NAV-BAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: 	#FFB6C1">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#"><img src="./img/logo2.PNG" class="logo"></a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">
+                                <p class="texto">Home</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">
+                                <p class="texto">Galeria</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cadastro.html">
+                                <p class="texto">Cadastre-se</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ITENS-GALERIA -->
+
+    <main class="main">
+        <div class="container">
+            <div class="row  row-cols-4 row-cols-md-2 gap-5">
+
+                <div class="card border-info" style="width: 18rem;">
+                    <img src="./img/colorsshake.JPG" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Colors Shake</h5>
+                        <p class="card-text">Todas as cores com o sabor de Tutti-Frutty</p>
+                        <button type="button" class="btn-colors" data-bs-toggle="modal" data-bs-target="#colorsShake">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card border-info" style="width: 18rem;">
+                    <img src="./img/greenshake.JPG" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Green Shake</h5>
+                        <p class="card-text">O sabor de menta no seu copo!</p>
+                        <button type="button" class="btn-colors" data-bs-toggle="modal" data-bs-target="#greenShake">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card border-info" style="width: 18rem;">
+                    <img src="./img/acainutella.JPG" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Açaí Nutella</h5>
+                        <p class="card-text">A cremosidade está no seu açaí</p>
+                        <button type="button" class="btn-colors" data-bs-toggle="modal" data-bs-target="#acaiNutella">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card border-info" style="width: 18rem;">
+                    <img src="./img/cascao.JPG" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cascão</h5>
+                        <p class="card-text">O cascão do tamanho da felicidade</p>
+                        <button type="button" class="btn-colors" data-bs-toggle="modal" data-bs-target="#cascao">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card border-info" style="width: 18rem;">
+                    <img src="./img/shakejujuba.JPG" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jujubas Shake</h5>
+                        <p class="card-text">As jujubinhas se tornaram um sabor único!</p>
+                        <button type="button" class="btn-colors" data-bs-toggle="modal" data-bs-target="#jujubasShake">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card border-info" style="width: 18rem;">
+                    <img src="./img/chantillycake.JPG" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Chantilly Cake</h5>
+                        <p class="card-text">Chantilly em seu bolo para acompanhar!</p>
+                        <button type="button" class="btn-colors" data-bs-toggle="modal" data-bs-target="#chantilyCake">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card border-info" style="width: 18rem;">
+                    <img src="./img/casquinhapink.JPG" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Casquinha Pink</h5>
+                        <p class="card-text">O sabor morango transmite amor!</p>
+                        <button type="button" class="btn-colors" data-bs-toggle="modal" data-bs-target="#casquinhaPink">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card border-info" style="width: 18rem;">
+                    <img src="./img/bolo2.JPG" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cake Colors</h5>
+                        <p class="card-text">As cores com muitos sabores, juntinhos em seu cake</p>
+                        <button type="button" class="btn-colors" data-bs-toggle="modal" data-bs-target="#cakeColors">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card border-info" style="width: 18rem;">
+                    <img src="./img/padrinhosmagicosshake.JPG" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ice Cream Padrinhos Mágicos</h5>
+                        <p class="card-text">A mágia em formato de duplinha shake!!!</p>
+                        <button type="button" class="btn-colors" data-bs-toggle="modal"
+                            data-bs-target="#padrinhosMagicosShake">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card border-info" style="width: 18rem;">
+                    <img src="./img/unicornioshake.JPG" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Unicórnio Shake</h5>
+                        <p class="card-text">O seu unícornio contém muitas camadas!</p>
+                        <button type="button" class="btn-colors" data-bs-toggle="modal"
+                            data-bs-target="#unicornioShake">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card border-info" style="width: 18rem;">
+                    <img src="./img/harrypottershake.JPG" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ice Harry Potter</h5>
+                        <p class="card-text">Seu trio BRUXO predileto em 3 sabores únicos!</p>
+                        <button type="button" class="btn-colors" data-bs-toggle="modal"
+                            data-bs-target="#harryPotterShake">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card border-info" style="width: 18rem;">
+                    <img src="./img/picoles-colors.jpg" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Picolés Colors</h5>
+                        <p class="card-text">Sua cor preferida em um sabor refrescante!</p>
+                        <button type="button" class="btn-colors" data-bs-toggle="modal" data-bs-target="#picolesColors">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MODAL -->
+
+        <div class="modal fade" id="colorsShake" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Colors Shake</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="width: 18rem;">
+                        <img src="./img/colorsshake.JPG" class="card-img-top img-card" alt="...">
+                        <p class="texto-modal">Valor: R$22,00</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-success">🛒Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="greenShake" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Green Shake</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="width: 18rem;">
+                        <img src="./img/greenshake.JPG" class="card-img-top img-card" alt="...">
+                        <p class="texto-modal">Valor: R$18,00</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-success">🛒Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="acaiNutella" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Açai Nutella</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="width: 18rem;">
+                        <img src="./img/acainutella.JPG" class="card-img-top img-card" alt="...">
+                        <p class="texto-modal">Valor: R$13,00</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-success">🛒Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="cascao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Cascão</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="width: 18rem;">
+                        <img src="./img/cascao.JPG" class="card-img-top img-card" alt="...">
+                        <p class="texto-modal">Valor: R$7,00</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-success">🛒Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="jujubasShake" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Jujubas Shake</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="width: 18rem;">
+                        <img src="./img/shakejujuba.JPG" class="card-img-top img-card" alt="...">
+                        <p class="texto-modal">Valor: R$20,00</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-success">🛒Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="chantilyCake" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Chantily Cake</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="width: 18rem;">
+                        <img src="./img/chantillycake.JPG" class="card-img-top img-card" alt="...">
+                        <p class="texto-modal">Valor: R$9,00 (a fatia)</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-success">🛒Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="casquinhaPink" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="casquinhaPink">Casquinha Pink</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="width: 18rem;">
+                        <img src="./img/casquinhapink.JPG" class="card-img-top img-card" alt="...">
+                        <p class="texto-modal">Valor: R$9,00</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-success">🛒Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="cakeColors" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="cakeColors">Cake Colors</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="width: 18rem;">
+                        <img src="./img/bolo2.JPG" class="card-img-top img-card" alt="...">
+                        <p class="texto-modal">Valor: R$7,50 (a fatia)</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-success">🛒Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="padrinhosMagicosShake" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="padrinhosMagicosShake">Ice Cream Padrinhos Mágicos</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="width: 18rem;">
+                        <img src="./img/padrinhosmagicosshake.JPG" class="card-img-top img-card" alt="...">
+                        <p class="texto-modal">Valor: R$20,00 (a dupla)</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-success">🛒Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="unicornioShake" tabindex="-1" aria-labelledby="exampleModalLabel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="unicornioShake">Unicórnio Shake</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="width: 18rem;">
+                        <img src="./img/unicornioshake.JPG" class="card-img-top img-card" alt="...">
+                        <p class="texto-modal">Valor: R$10,00</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-success">🛒Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="harryPotterShake" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="harryPotterShake">Ice Harry Potter</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="width: 18rem;">
+                        <img src="./img/harrypottershake.JPG" class="card-img-top img-card" alt="...">
+                        <p class="texto-modal">Valor: R$11,00 (cada)</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-success">🛒Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="picolesColors" tabindex="-10" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="picolesColors">Picolés Colors</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="width: 18rem;">
+                        <img src="./img/picoles-colors.jpg" class="card-img-top img-card" alt="...">
+                        <p class="texto-modal">Valor: R$6,00</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-success">🛒Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- RODAPÉ -->
+
+    <footer class="footer text-white text-center py-3">
+        <div class="container">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#" class="text-white"><img src="./img/whatsapp.png"><br> (11)4002-8922</a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/esthernascimentooficial?igsh=MWhzcjhrd2YxMjI1bg%3D%3D&utm_source=qr" target="_blank" class="text-white"><img src="./img/instagram.png"><br> @Sorveteriaclodo</a></li>
+          </ul>
+          <p>&copy; 2024 Sorveteria do Clodo. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

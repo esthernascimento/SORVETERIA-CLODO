@@ -1,0 +1,67 @@
+@media (max-width: 1024px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logo-home {
+        width: 100px;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+
+    .texto-home {
+        font-size: 18px;
+        padding: 15px;
+        width: 100%;
+        line-height: 22px;
+    }
+
+    .img-sorveteria {
+        width: 300px;
+    }
+
+    .localizacao {
+        width: 100%;
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 480px) {
+  
+    .texto-home {
+        font-size: 14px;
+    }
+
+    .formulario {
+        width: 400px;
+        padding: 20px;
+        height: 700px;
+        margin-bottom: 20px;
+    }
+
+    .estilo-input {
+        width: 300px;
+    }
+
+    .localizacao h3 {
+        font-size: 18px;
+    }
+
+    .localizacao p {
+        font-size: 14px;
+    }
+}
