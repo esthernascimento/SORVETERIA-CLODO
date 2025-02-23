@@ -11,7 +11,7 @@ Um site responsivo para apresentar a Sorveteria Clodo, incluindo informações, 
 
 ### 📸 Galeria de Produtos  
 - Seção com imagens dos sorvetes e picolés oferecidos pela sorveteria.
-- 
+
 ### 📋 Cadastro de Clientes  
 - Formulário para que os clientes possam se registrar de forma rápida e prática.  
 
