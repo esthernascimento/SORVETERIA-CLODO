@@ -1,7 +1,7 @@
 
 # 🍦 Sorveteria do Clodo  
 
-Um site simples e responsivo para apresentar a Sorveteria Clodo, incluindo informações, cadastro de clientes e uma galeria de produtos.  
+Um site responsivo para apresentar a Sorveteria Clodo, incluindo informações, cadastro de clientes e uma galeria de produtos.
 
 ## 🌐 Funcionalidades  
 
