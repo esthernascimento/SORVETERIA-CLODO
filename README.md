@@ -6,14 +6,14 @@ Um site responsivo para apresentar a Sorveteria Clodo, incluindo informações, 
 ## 🌐 Funcionalidades  
 
 ### 🏠 Página Inicial  
-- Introdução à sorveteria com um design leve e intuitivo.  
-- Estruturada com Bootstrap para facilitar o layout e garantir boa experiência em diferentes dispositivos.  
-
-### 📋 Cadastro de Clientes  
-- Formulário para que os clientes possam se registrar de forma rápida e prática.  
+- Estruturada com Bootstrap para garantir boa experiência em diferentes dispositivos.  
+- Apresentação à sorveteria com um design atrativo.  
 
 ### 📸 Galeria de Produtos  
-- Seção com imagens dos sorvetes e picolés oferecidos pela sorveteria.  
+- Seção com imagens dos sorvetes e picolés oferecidos pela sorveteria.
+- 
+### 📋 Cadastro de Clientes  
+- Formulário para que os clientes possam se registrar de forma rápida e prática.  
 
 ### 🌈 Estilização  
 - **style.css** – Define o visual e as cores do site.  
@@ -26,13 +26,13 @@ O projeto foi desenvolvido utilizando:
 - **🎨 CSS3** – Personalização do design.  
 - **📱 Bootstrap** – Facilita a responsividade e o uso de componentes prontos.  
 
-## ⚡ Acesse o Site  
+## ⚡ Acesso ao Site  
 
 O projeto está disponível aqui no link abaixo:  
 
 🔗 [Sorveteria Clodo](https://esthernascimento.github.io/SORVETERIA-CLODO/)  
 
-## 📖 Sobre o Projeto  
+## 📖 Mais sobre o Projeto  
 
 Este meu projeto foi desenvolvido na aula de Programação Web do curso de Desenvolvimento de Sistemas na ETEC de Guaianazes, com o objetivo de praticar conceitos de estruturação, estilização e responsividade na web.  
 
